@@ -2,7 +2,7 @@
 <config>
     <sections>
         <sendpulse translate="label" module="sendpulse">
-            <label>Sendpulse</label>
+            <label><![CDATA[<div><img style="max-height: 15px;" src="http://modules.devopensource.com/assets/logo/devopensource_sendpulse.png" alt="" border="0" /></div>]]></label>
             <tab>devopsall</tab>
             <sort_order>100</sort_order>
             <show_in_default>1</show_in_default>
