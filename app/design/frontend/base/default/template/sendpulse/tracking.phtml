@@ -1,0 +1,16 @@
+<?php
+/**
+ * @category Devopensource
+ * @package Devopensource_sendpulse
+ * @author Nacho Valera <nacho.valera@devopensource.com>
+ * @version 0.1.0
+ */
+
+//Mage::log('hello: '. Mage::getStoreConfig('sendpulse/general/active', Mage::app()->getStore()));
+//echo "test layout";
+if(Mage::getStoreConfig('sendpulse/general/active', Mage::app()->getStore())):
+    ?><script charset="UTF-8" src="<?php echo Mage::getStoreConfig('sendpulse/general/pushCode', Mage::app()->getStore());?>" async></script>
+<?php
+endif;
+?>
+

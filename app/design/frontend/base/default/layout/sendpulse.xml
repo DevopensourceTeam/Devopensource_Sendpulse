@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<layout version="0.1.1">
+    <default>
+        <reference name="after_body_start">
+            <block type="sendpulse/tracking" name="sendpulse_tracking">
+                <action method="setTemplate">
+                    <template>sendpulse/tracking.phtml</template>
+                </action>
+            </block>
+        </reference>
+    </default>
+</layout>
