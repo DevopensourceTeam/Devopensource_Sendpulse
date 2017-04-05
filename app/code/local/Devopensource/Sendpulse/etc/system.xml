@@ -29,6 +29,7 @@
                         <pushCode>
                             <label>SendPulse Push website code</label>
                             <frontend_type>text</frontend_type>
+                            <comment><![CDATA[Insert the src part of the script given by sendpulse.<br/> Example:<br/> //cdn.sendpulse.com/xxxxxxxxxxxx/js/push/xxxxxxxxxxxx.js<br/> Then copy sendpulse given files into magento root directory.]]></comment>
                             <sort_order>20</sort_order>
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>
